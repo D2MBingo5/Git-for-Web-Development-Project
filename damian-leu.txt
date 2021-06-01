@@ -110,6 +110,25 @@ Questions
     git push -u origin [branch-name]
     
     37. Walk me through Lambda's git flow. 
+    Step 1. Fork the repo
+    Step 2. Check that my name is in front of the repo
+    Step 3. Clone my repo
+    Step 4. In git bash: cd to the directory i want to clone my forked repo
+    Step 5. git clone <repo-link>
+    Step 6. cd into the cloned repo
+    Step 7. Create my own branch using git checkout -b "branch-name"
+    Step 8. Work on the repo
+    Step 9. Commit changes on my branch to my repo using:
+        git add . to add the repo changes and prep them for committing
+        git commit -m "Comment" to commit the changes
+    Step 10. Push changes back up to my github repo
+        git push -u origin "branch-name" to push all of my commits on my local machine up onto github
+    Step 11. Submit a pull request
+    Step 12. Go back to my forked project repo on github
+        click on the Branch:master button
+        select my name-branch and click New pull request
+        On the pull request page, make sure to click the dropdown button that says base repository and change it to be my forked repo
+        Create pull request
 
 
 
